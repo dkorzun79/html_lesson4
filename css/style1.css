@@ -5,11 +5,16 @@
 }
 h1 {
   font: 20px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-stretch: condensed;
+  
  
   }
 h2 {
   font: 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
+  font-weight: bold;
   }
 p {
   font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
