@@ -18,6 +18,7 @@
     <article class="c1">
       <h2>Добро пожаловать на наш сайт!</h2>
        <form action="/signup" method="POST">
+        <legend>Для регистрации введите свои данные:</legend>
         <fieldset class="account-info">
           <label>Имя</label>
           <input type="text" name="first_name">
@@ -46,13 +47,15 @@
           
         </fieldset>
         <fieldset class="account-action">
-          <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для подтверждения согласия <a
+          <label><input type="checkbox" name="ww_submit_confirm" checked>&nbsp;Отметьте для подтверждения согласия <a
               href="/подключение/правила-использования-услуги" target="_blank" rel="noopener">с правилами использования
               услуги</a></label>
-              <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для согласия на обработку персональных данных в
+              <br>
+              <label><input type="checkbox" name="ww_submit_confirm" checked>&nbsp;Отметьте для согласия на обработку персональных данных в
                 соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об
-                  обработке персональных данных</a></label>
-          <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
+                  обработке персональных данных</a></label><br>
+          <button class="btn" type="submit" name="submit">
+            Зарегистрироваться</button>
           </fieldset>
       </form>
     </article>
@@ -61,7 +64,7 @@
     </aside>-->
   </main>
   <footer class="foot">
-  &#169; 2021, Официальный сайт Иванова Ивана Ивановича
+  &#169; 2021, Официальный сайт Корзуна Дмитрия Михайловича
   </footer>
 </body>
 </html>
