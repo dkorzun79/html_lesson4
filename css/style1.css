@@ -19,14 +19,14 @@ h1 {
    
   }
 h2 {
-  font: 18px/1.6 "Helvetica Neue",  Helvetica, Arial, sans-serif;
+  font: 19px/1.7 "Helvetica Neue",  Helvetica, Arial, sans-serif;
   font-weight: bold;
-  
+  padding:5px 0 5px 0;
   }
 
 
 p {
-  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 10px/1.1 "Helvetica Neue", Helvetica, Arial, sans-serif;
  
 }
 .c1 {
@@ -38,13 +38,13 @@ p {
   font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #d0d1d1;
   text-align: center;
-  margin: 15px 0 15px 0;
+  padding:10px 0 50px 0;
   }
 
 form {
   border: 1px solid #c6c7cc;
   border-radius: 5px;
-  font: 14px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   
   
@@ -62,8 +62,7 @@ input {
 legend {
   font: 17px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align:center;
- /* margin-top:10px;*/
-  padding-top: 10px;
+   padding-top: 10px;
   
 }
 .account-info {
@@ -83,7 +82,6 @@ legend {
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   color: #636466;
-  
   width: 100%;
 }
 .account-info select {
@@ -96,11 +94,9 @@ legend {
 .account-action {
   background: #f0f0f2;
   border-top: 1px solid #c6c7cc;
-  height: 170px;
-  padding:15px 30px 0 30px;
-    
+  /*height: 170px;*/
+  padding:25px 30px 15px 30px;
 }
-
 
 .account-action .btn {
   background: linear-gradient(#49708f, #293f50);
@@ -108,16 +104,16 @@ legend {
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
-  width: 170px;
-  height: 32px;
-  margin: 10px 0;
-  font-size:13px;
+  width: 180px;
+  height: 40px;
+  margin: 10px 0 20px 0;
+  font-size:14px;
   font-weight: bold;
 }
 .account-action label {
   color: #7c7c80;
   font-size: 11px;
-  line-height: 10px;
+  /*line-height: 0.5em;*/
 
 }
 
