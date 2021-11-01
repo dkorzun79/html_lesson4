@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы на веб-странице3</title>
+  <link rel="stylesheet" href="css/index4.css">
+</head>
+
+<body>
+  <header>
+    <h1>Регистрация</h1>    
+  </header>
+  <main>
+    <div id="banner">
+      <div id="logo"> 
+        <img id="img" src="images/Vkontakte.gif" title="logo vk" alt="VK">
+      </div>
+      <div id="about"><strong>ВКонтакте.ру</strong> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас окружают, а также
+      найти потерянных друзей и поддерживать с ними связь. Вы сможете делиться информацией, ограничивая круг лиц, кторым она
+      будет доступна.
+      </div>
+    </div>
+    <article> 
+      <h2>Имя</h2>
+
+    <form action="/signup" method="POST"> 
+      <fieldset class="name">
+          <label>Имя:</label>
+          <input type="text" name="first_name"> <span>Допускаются только настоящие имя и фамилия</span><br>
+          <label>Фамилия:</label>
+          <input type="text" name="last_name"> <span>Остальняе регистрации будут удалаться</span><br>
+          <label>E-Mail:</label>
+          <input type="email" placeholder="login@server.com" required="required"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br>
+          <label>Пароль:</label>
+          <input type="password" name="pass" value="111111"><br>
+      </fieldset>
+
+      <h2>Образование</h2>
+        <fieldset class="edu">
+
+          <label>Страна:</label>
+          <select name="country">
+            <option>Беларусь</option>
+            <option selected>Россия</option>
+            <option>Украина</option>
+            <option>Польша</option>
+            <option>Литва</option>
+            <option>Латвия</option>
+            <option>Эстония</option>
+            <option>США</option>
+          </select><br>
+          <label>Город:</label>
+          <select name="town">
+            <option>Минск</option>
+            <option selected>Москва</option>
+            <option>Киев</option>
+            <option>Варшава</option>
+            <option>Вильнюс</option>
+            <option>Рига</option>
+            <option>Таллин</option>
+            <option>Эстония</option>
+            <option>Вашингтон</option>
+          </select>
+          
+        </fieldset>
+        <div class="town">Город, где вы учились в школе или вузе:</div>
+          <br>
+
+       <h3>Школа</h3>
+        <fieldset class="edu">
+          <label>Школа:</label>
+          <select name="school">
+            <option selected>- Выберите школу -</option>
+            <option>СШ №1</option>
+            <option>СШ №2</option>
+            <option>СШ №3</option>
+            <option>Гимназия 1</option>
+            <option>Гимназия 10</option>
+            <option>Гимназия 20</option>
+          </select><br>
+        </fieldset>
+
+        <h3>Университет</h3>
+        <fieldset class="edu">
+          <label>ВУЗ:</label>
+          <select name="university">
+            <option selected>- Выберите ВУЗ -</option>
+            <option>БГУ</option>
+            <option>БГЭУ</option>
+            <option>БНТУ</option>
+            <option>БГУИР</option>
+            <option>МГЛУ</option>
+            <option>БГМУ</option>
+          </select><br>
+
+        <button class="btn" type="submit" name="submit">
+          Зарегистрироваться</button>
+            
+        </fieldset>
+      </form>
+    </article>
+
+  </main>
+  <footer>
+    Фактом регистрации вы соглашаетесь с <a href="https://vk.com/terms" target="blanc">Пользовательским соглашением</a>
+  </footer>
+</body>
+
+</html>
