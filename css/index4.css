@@ -13,7 +13,7 @@ h1 {
 
 #banner {
 border-top:3.5px rgb(235, 235, 235) solid;
-margin:0px 0 15px 0;
+margin:0px 0 14px 0;
 padding: 18px 0 0 0px;
 }
 
@@ -37,16 +37,16 @@ h2 {
 font: 20px/1.15 Helvetica, Arial, sans-serif;
 font-weight: bold;
 color: #4d7593f6;
-margin:5px 0 6px 0;
-padding: 13px 0px;
+margin:6px 0 6px 0;
+padding: 16px 0 14px 0;
 }
 
 h3 {
 font: 17px/1.15 Helvetica, Arial, sans-serif;
 font-weight: bold;
 color: #4d7593f6;
-margin:5px 0 6px 0;
-padding: 10px 0px;
+margin:5px 0 5px 0;
+padding: 8px 0px 9px 0;
 }
 
 form {
@@ -69,7 +69,7 @@ padding-bottom: 10px;
 }
 
 .name {
-  padding: 9px 20px 40px 0px;
+  padding: 9px 20px 35px 0px;
   border-top:3.5px rgb(235, 235, 235) solid;
 }
 
@@ -88,7 +88,7 @@ color: rgb(199, 199, 199)
 }
 
 .edu {
-  padding: 6px 20px 0px 0px;
+  margin-top:0px;
   border-top:2.2px rgb(235, 235, 235) solid;
  
 }
@@ -98,35 +98,69 @@ color: rgb(199, 199, 199)
   height: 20px;
   color: gray;
   display:inline-block;
-  text-align: right;
+  text-align: right
+  
 }
 
 .edu select {
-  width: 203px;
-  height: 22px;
+  
   display:inline-block;
-  margin:15px 0 0px 0;
+  margin:20px 0 0px 0;
+  /*float: right;*/
 }
 
 
 .town {
+font-family: Arial Black, Arial, sans-serif;
 font-size: 13px;
-font-weight: bold;
-color: rgb(84, 84, 84);
-margin: 0 0 25px 75px;
+color: rgb(120, 120, 120);
+margin: -3px 0 22px 75px;
 }
+
+.school {
+  /*margin-top:10px;*/
+  padding: 17px 0px 4px 0px;
+  border-top:2.2px rgb(235, 235, 235) solid;
+ 
+}
+
+.school label{
+  width: 70px;
+  height: 20px;
+  color: gray;
+  display:inline-block;
+  text-align: right
+  
+}
+
+.scool select {
+  display:inline-block;
+ margin:20px 0 20px 0;
+ }
+
+
 
 .btn {
   cursor: pointer;
-  width: 255px;
+  width: 261px;
   height: 28px;
   margin: 10px 0 20px 0;
   font-size:14px;
-  margin: 30px 0 0 25px;
+  margin: 35px 0 0 25px;
 }
 
-input[type="text"], input[type="email"], input[type="password"], select, textarea  {
+ a {
+  text-decoration: none;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
   width: 203px;
-  height: 22px;
+  height: 21px;
   font-size: 15px;
+}
+
+select, textarea {
+  width: 203px;
+  height: 24px;
+  font-size: 16px;
 }
