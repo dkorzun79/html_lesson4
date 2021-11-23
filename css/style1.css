@@ -9,18 +9,21 @@ margin:auto;
 }
 
 h1 {
-  font: 19px/1.9 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 20px Bahnschrift;
+  letter-spacing:-1px;
   text-align: center;
   text-transform: uppercase;
   font-weight:bold;
-  font-stretch: condensed;
-  letter-spacing: 0.1em;   
+  /*font-stretch: condensed;*/
+  padding: 7px 0 0 2px;
+  margin-bottom: 0px;
+     
   }
 h2 {
   font: 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   padding:5px 0 5px 0;
-  margin: 15px 0 12px 0;
+  margin: 20px 0 12px 0;
   }
 p {
   font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
