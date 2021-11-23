@@ -89,7 +89,7 @@ legend {
   padding:5px 0 0 0;
 }
 .ln{
-  padding:5px 0 0 0;
+  padding:4px 0 0 0;
 }
 .mail{
   padding:5px 0 0 0;
@@ -110,7 +110,7 @@ legend {
 .account-action {
   background: #f0f0f2;
   border-top: 1px solid #c6c7cc;
-  padding:30px 15px 20px 36px;
+  padding:31px 15px 20px 36px;
   font-size:11px;
   /*font-stretch: condensed;*/
 }
@@ -123,7 +123,7 @@ legend {
   cursor: pointer;
   width: 177px;
   height: 35px;
-  margin: 10px 20px 9px 0px;
+  margin: 9px 20px 9px 0px;
   font-size:14px;
   font-weight: bold;
 }
@@ -131,9 +131,14 @@ legend {
   color: #7c7c80;
 }
 
-.pd{
+.pd1{
+  margin: 0px 0 0 0;
+  padding: 0px 0 0 0;
+}
+
+.pd2{
   margin: 10px 0 0 0;
-  padding: 0 0 0 0;
+  padding: 0px 0 0 0;
 }
 
 input[type="text"], input[type="email"], select, textarea {
