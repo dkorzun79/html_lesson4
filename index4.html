@@ -27,23 +27,20 @@
       <h2>Имя</h2>
 
     <form action="/signup" method="POST"> 
-      <fieldset class="name">
-          <label>Имя:</label>
+      <fieldset class="namespace">
+          <label class="name">Имя:</label>
           <input type="text" name="first_name"> <span>Допускаются только настоящие имя и фамилия</span><br>
-          <label>Фамилия:</label>
+          <label class="fam">Фамилия:</label>
           <input type="text" name="last_name"> <span>Остальняе регистрации будут удалаться</span><br>
-          <label>E-Mail:</label>
-          <input type="email" placeholder="login@server.com" required="required"
+          <label class="mail">E-Mail:</label><input type="email" placeholder="login@server.com" required="required"
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br>
-          <label>Пароль:</label>
-          <input type="password" name="pass" value="111111"><br>
+          <label class="pass">Пароль:</label><input type="password" name="pass" value="111111"><br>
       </fieldset>
 
       <h2>Образование</h2>
         <fieldset class="edu">
 
-          <label>Страна:</label>
-          <select name="country">
+          <label class="cntr">Страна:</label><select name="country">
             <option selected>Россия</option>
             <option>Беларусь</option>            
             <option>Украина</option>
@@ -53,8 +50,7 @@
             <option>Эстония</option>
             <option>США</option>
           </select><br>
-          <label>Город:</label>
-          <select name="town">
+          <label class="city">Город:</label><select name="town">
             <option>Минск</option>
             <option selected>Москва</option>
             <option>Киев</option>
@@ -68,8 +64,7 @@
           
         </fieldset>
         <div class="town">Город, где вы учились в школе или вузе:</div>
-          <br>
-
+          
        <h3>Школа</h3>
         <fieldset class="school">
           <label>Школа:</label>
