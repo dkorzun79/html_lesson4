@@ -14,7 +14,7 @@ h1 {
 
 #banner {
 border-top:2.5px #e7eaef solid;
-margin:0px 0 15px 0;
+margin:0px 0 17px 0;
 padding: 15px 0 0 0px;
 }
 
@@ -37,22 +37,22 @@ padding: 0px 0px 0px 0px;
 
 h2 {
 font-family: DejaVu Sans;
-font-size: 107%;
+font-size: 100%;
 font-weight: 900;
 color: #5b7292;
-letter-spacing:-0.7px;
+letter-spacing:0px;
 margin:6px 0 6px 0px;
 padding: 8px 0 9px 0px;
 }
 
 h3 {
-font-size: 87%; 
+font-size: 84%; 
 font-family: Tahoma, Geneva, Verdana, sans-serif;
-font-weight: 550;
+font-weight: 900;
 color: #577498;
-margin:4px 0 5px 1px;
+margin:4px 0 7px 0px;
 padding: 7px 0px 7px 0px;
-letter-spacing:0.3px;
+letter-spacing:0.6px;
 }
 
 form {
@@ -78,20 +78,20 @@ letter-spacing:0.1px;
 }
 
 .namespace {
-  padding: 6px 20px 25px 0px;
+  padding: 5px 20px 24px 0px;
   border-top:3px #e7eaef solid;
 
 }
 
 .name {
-  width: 65px;
+  width: 64px;
   height: 20px;
-  color: gray;
+  color: rgb(110, 110, 110);
   display:inline-block;
   margin:11px 0 12px 0;
   text-align: right;
-  font-size: 85%;
-  letter-spacing:0.4px;
+  font-size: 84%;
+  letter-spacing:0.7px;
 }
 
 .namespace span {
@@ -101,84 +101,84 @@ letter-spacing:0.21px;
 }
 
 .fam {
-  width: 66px;
+  width: 65px;
   height: 20px;
-  color: gray;
+  color: rgb(110, 110, 110);
   display:inline-block;
   margin:5px 0 12px 0;
   text-align: right;
-  font-size: 87%;
-  letter-spacing:0.4px;
+  font-size: 83%;
+  letter-spacing:0.8px;
 }
 
 .mail {
-  width: 66px;
+  width: 64px;
   height: 20px;
-  color: gray;
+  color: rgb(110, 110, 110);
   display:inline-block;
-  margin:7px 3px 12px 0;
+  margin:5px 3px 12px 0;
   text-align: right;
-  font-size: 81%;
+  font-size: 79%;
   letter-spacing:1px;
 }
 
 .pass {
-  width: 66px;
+  width: 64px;
   height: 20px;
-  color: gray;
+  color: rgb(110, 110, 110);
   display:inline-block;
-  margin:6px 3px 12px 0;
+  margin:5px 3px 13px 0;
   text-align: right;
-  font-size: 80%;
-  letter-spacing:1.1px;
+  font-size: 83%;
+  letter-spacing:0.8px;
 }
 .edu {
   margin-top:0px;
-  border-top:2.2px #e7eaef solid;
+  border-top:3px #e7eaef solid;
  
 }
 
-.cntr {
+.contr {
   width: 72px;
   height: 20px;
   color: gray;
   display:inline-block;
   text-align: right;
-  font-size: 87%;
-  letter-spacing:0.4px;
-  margin:15px 1px 1px 0;  
+  font-size: 83%;
+  letter-spacing:0.8px;
+  margin:16px 1px 1px 0;  
 }
 
 .city{
-  width: 72px;
+  width: 71px;
   height: 20px;
   color: gray;
   display:inline-block;
   text-align: right;
-  font-size: 87%;
-  letter-spacing:0.4px;
-  margin:15px 0 0px 2px;  
+  font-size: 83%;
+  letter-spacing:0.8px;
+  margin:14px 0 0px 2px;  
 }
 
 .edu select {  
   display:inline-block;
-  margin:0px 0 0px 4px;  
+  margin:0px 0 0px 3px;  
 }
 
 .town {
 /*font-family: Arial Black, Arial, sans-serif;*/
 font-size: 67.3%;
 color: #696969;
-margin: -2px 0 33px 78px;
-font-weight: 550;
+margin: -3px 0 34px 78px;
+font-weight: 600;
 letter-spacing:0.22px;
 }
 
 .school {
   /*margin-top:10px;*/
   padding: 13px 0px 0px 0px;
-  border-top:2.2px #e7eaef solid;
-  font-size: 88%;
+  border-top:3px #e7eaef solid;
+  font-size: 85%;
   letter-spacing:0.5px; 
 }
 
@@ -196,7 +196,7 @@ letter-spacing:0.22px;
  /*margin:20px 0 20px 0;*/
  width: 168px;
   height: 18px;
-  font-size: 98%;
+  font-size: 86%;
   letter-spacing:-0.3px;
   padding: 0px 0 0 0px;
  }
@@ -217,23 +217,24 @@ letter-spacing:0.22px;
 }
 
 input[type="text"], input[type="password"] {
-  width: 162px;
-  height: 16px;
+  width: 150px;
+  height: 15px;
   font-size: 14px;
 }
 
 input[type="email"] {
-  width: 162px;
-  height: 14px;
+  width: 150px;
+  height: 13px;
   font-size: 10px;
   padding-top: 3px;
+  margin-left: 2px;
 }
 
 
 select, textarea {
-  width: 164px;
+  width: 163px;
   height: 19px;
-  font-size: 85%;
-  /*letter-spacing:1px;*/
-  padding: 0 0 0 0px;
+  font-size: 78%;
+  letter-spacing:0.8px;
+  padding: 0 0 0 1px;
 }
