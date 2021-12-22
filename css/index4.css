@@ -95,9 +95,9 @@ letter-spacing:0.1px;
 }
 
 .namespace span {
-font-size: 68%;
+font-size: 67%;
 color: rgb(199, 199, 199);
-letter-spacing:0.21px;
+letter-spacing:0.26px;
 }
 
 .fam {
@@ -169,21 +169,21 @@ letter-spacing:0.21px;
 /*font-family: Arial Black, Arial, sans-serif;*/
 font-size: 67.3%;
 color: #696969;
-margin: -3px 0 34px 78px;
+margin: -3px 0 35px 78px;
 font-weight: 600;
 letter-spacing:0.18px;
 }
 
 .school {
   /*margin-top:10px;*/
-  padding: 13px 0px 0px 0px;
+  padding: 12px 0px 0px 0px;
   border-top:3px #e7eaef solid;
   font-size: 85%;
   letter-spacing:0.5px; 
 }
 
 .school label{
-  width: 70px;
+  width: 68px;
   height: 20px;
   color: gray;
   display:inline-block;
@@ -194,10 +194,10 @@ letter-spacing:0.18px;
 .school select {
   display:inline-block;
  /*margin:20px 0 20px 0;*/
- width: 168px;
+ width: 166px;
   height: 18px;
-  font-size: 86%;
-  letter-spacing:-0.3px;
+  font-size: 100%;
+  letter-spacing:-0.2px;
   padding: 0px 0 0 0px;
  }
 
@@ -235,6 +235,6 @@ select, textarea {
   width: 163px;
   height: 19px;
   font-size: 78%;
-  letter-spacing:0.8px;
-  padding: 0 0 0 1px;
+  letter-spacing:0.7px;
+  padding: 0 0 0 0px;
 }
